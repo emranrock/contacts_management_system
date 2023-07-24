@@ -1,0 +1,833 @@
+CRITICAL - 2023-06-05 10:51:01 --> Cannot redeclare dd() (previously declared in E:\xampp\htdocs\yourlibaas_v4\system\Helpers\kint_helper.php:34)
+in APPPATH\Helpers\comm_helper.php on line 652.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-05 10:51:09 --> Cannot redeclare dd() (previously declared in E:\xampp\htdocs\yourlibaas_v4\system\Helpers\kint_helper.php:34)
+in APPPATH\Helpers\comm_helper.php on line 652.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-05 10:52:03 --> Call to undefined function hooks()
+in APPPATH\Helpers\comm_helper.php on line 2385.
+ 1 SYSTEMPATH\Common.php(665): include_once()
+ 2 SYSTEMPATH\Controller.php(85): helper([...])
+ 3 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 10:52:21 --> Call to undefined function hooks()
+in APPPATH\Helpers\comm_helper.php on line 2385.
+ 1 SYSTEMPATH\Common.php(665): include_once()
+ 2 SYSTEMPATH\Controller.php(85): helper([...])
+ 3 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 10:53:07 --> Call to undefined function hooks()
+in APPPATH\Helpers\comm_helper.php on line 2385.
+ 1 SYSTEMPATH\Common.php(665): include_once()
+ 2 SYSTEMPATH\Controller.php(85): helper([...])
+ 3 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 10:53:08 --> Call to undefined function hooks()
+in APPPATH\Helpers\comm_helper.php on line 2385.
+ 1 SYSTEMPATH\Common.php(665): include_once()
+ 2 SYSTEMPATH\Controller.php(85): helper([...])
+ 3 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 10:53:35 --> Call to undefined function hooks()
+in APPPATH\Helpers\comm_helper.php on line 2385.
+ 1 SYSTEMPATH\Common.php(665): include_once()
+ 2 SYSTEMPATH\Controller.php(85): helper([...])
+ 3 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 10:55:09 --> Call to undefined function hooks()
+in APPPATH\Helpers\comm_helper.php on line 2385.
+ 1 SYSTEMPATH\Common.php(665): include_once()
+ 2 SYSTEMPATH\Controller.php(85): helper([...])
+ 3 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 10:56:27 --> Call to undefined function hooks()
+in APPPATH\Helpers\comm_helper.php on line 2385.
+ 1 SYSTEMPATH\Common.php(665): include_once()
+ 2 SYSTEMPATH\Controller.php(85): helper([...])
+ 3 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 10:59:51 --> Call to undefined function hooks()
+in APPPATH\Helpers\comm_helper.php on line 2385.
+ 1 SYSTEMPATH\Common.php(665): include_once()
+ 2 SYSTEMPATH\Controller.php(85): helper([...])
+ 3 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:00:45 --> Call to undefined function hooks()
+in APPPATH\Helpers\comm_helper.php on line 2385.
+ 1 SYSTEMPATH\Common.php(665): include_once()
+ 2 SYSTEMPATH\Controller.php(85): helper([...])
+ 3 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:04:10 --> include_once(E:\xampp\htdocs\yourlibaas_v4\app\libraries/php-hooks.php): failed to open stream: No such file or directory
+in APPPATH\Helpers\comm_helper.php on line 2520.
+ 1 APPPATH\Helpers\comm_helper.php(2520): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(E:\\xampp\\htdocs\\yourlibaas_v4\\app\\libraries/php-hooks.php): failed to open stream: No such file or directory', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Helpers\\comm_helper.php', 2520, [])
+ 2 APPPATH\Helpers\comm_helper.php(2520): include_once()
+ 3 APPPATH\Helpers\comm_helper.php(2385): hooks()
+ 4 SYSTEMPATH\Common.php(665): include_once('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Helpers\\comm_helper.php')
+ 5 SYSTEMPATH\Controller.php(85): helper([...])
+ 6 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:05:04 --> include_once(E:\xampp\htdocs\yourlibaas_v4\app/libraries/php-hooks.php): failed to open stream: No such file or directory
+in APPPATH\Helpers\comm_helper.php on line 2520.
+ 1 APPPATH\Helpers\comm_helper.php(2520): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(E:\\xampp\\htdocs\\yourlibaas_v4\\app/libraries/php-hooks.php): failed to open stream: No such file or directory', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Helpers\\comm_helper.php', 2520, [])
+ 2 APPPATH\Helpers\comm_helper.php(2520): include_once()
+ 3 APPPATH\Helpers\comm_helper.php(2385): hooks()
+ 4 SYSTEMPATH\Common.php(665): include_once('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Helpers\\comm_helper.php')
+ 5 SYSTEMPATH\Controller.php(85): helper([...])
+ 6 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:08:19 --> Cannot call constructor
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:08:58 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 10.
+ 1 APPPATH\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Home.php', 10, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:18:41 --> Class 'Library\shopify_lib' not found
+in APPPATH\Controllers\BaseController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:21:22 --> Undefined property: App\Controllers\Home::$shopify
+in APPPATH\Controllers\Home.php on line 12.
+ 1 APPPATH\Controllers\Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$shopify', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Home.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:23:10 --> Class 'App\Library\Shopify_lib' not found
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:23:58 --> Class 'App\Library\Shopify_lib' not found
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:26:33 --> Class 'App\Library\Shopify_lib' not found
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:27:09 --> Class 'App\Library\Shopify_lib' not found
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:27:44 --> Class 'App\Library\Shopify_lib' not found
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:31:09 --> Class 'app\Libraries\Shopify_lib' not found
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:31:41 --> Class 'app\Libraries\Shopify_lib' not found
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:44:24 --> Call to a member function setName() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:45:03 --> Call to a member function setName() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:45:23 --> Class 'app\Libraries\Shiprocket_lib' not found
+in APPPATH\Config\Services.php on line 37.
+ 1 APPPATH\Controllers\Home.php(14): Config\Services::Shopify(false)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:45:51 --> Class 'app\Libraries\shopify_lib' not found
+in APPPATH\Config\Services.php on line 37.
+ 1 APPPATH\Controllers\Home.php(14): Config\Services::Shopify(false)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:46:15 --> Class 'app\Libraries\Shopify_lib' not found
+in APPPATH\Config\Services.php on line 37.
+ 1 APPPATH\Controllers\Home.php(14): Config\Services::Shopify(false)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:46:57 --> Call to a member function setName() on null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:48:47 --> Call to a member function setName() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:50:18 --> Class 'app\Libraries\Shopify_lib' not found
+in APPPATH\Config\Services.php on line 37.
+ 1 APPPATH\Controllers\Home.php(14): Config\Services::Shopify(false)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:51:09 --> Class 'app\Libraries\Shopify_lib' not found
+in APPPATH\Config\Services.php on line 37.
+ 1 APPPATH\Controllers\Home.php(14): Config\Services::Shopify(false)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:52:36 --> Class 'app\Libraries\Shopify_lib' not found
+in APPPATH\Config\Services.php on line 37.
+ 1 APPPATH\Controllers\Home.php(14): Config\Services::Shopify(false)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:55:34 --> Undefined property: App\Controllers\Home::$shopify
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$shopify', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Home.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:55:57 --> Trying to get property 'load' of non-object
+in APPPATH\Libraries\Shopify_lib.php on line 63.
+ 1 APPPATH\Libraries\Shopify_lib.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'load\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Libraries\\Shopify_lib.php', 63, [])
+ 2 APPPATH\Controllers\Home.php(17): app\Libraries\Shopify_lib->check_common_products()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 11:56:29 --> Trying to get property 'load' of non-object
+in APPPATH\Libraries\Shopify_lib.php on line 63.
+ 1 APPPATH\Libraries\Shopify_lib.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'load\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Libraries\\Shopify_lib.php', 63, [])
+ 2 APPPATH\Controllers\Home.php(17): app\Libraries\Shopify_lib->check_common_products()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 12:07:39 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Helpers\cias_helper.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-05 12:13:30 --> Call to undefined function app\Libraries\get_instance()
+in APPPATH\Libraries\Shopify_lib.php on line 21.
+ 1 APPPATH\Controllers\Home.php(13): app\Libraries\Shopify_lib->setName('india')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 12:14:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Libraries\Shopify_lib.php on line 29.
+ 1 APPPATH\Controllers\Home.php(13): app\Libraries\Shopify_lib->setName('india')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 12:15:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Libraries\Shopify_lib.php on line 30.
+ 1 APPPATH\Controllers\Home.php(13): app\Libraries\Shopify_lib->setName('india')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 12:25:41 --> Trying to get property 'global_model' of non-object
+in APPPATH\Libraries\Shopify_lib.php on line 56.
+ 1 APPPATH\Libraries\Shopify_lib.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'global_model\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Libraries\\Shopify_lib.php', 56, [])
+ 2 APPPATH\Controllers\Home.php(14): app\Libraries\Shopify_lib->init()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 12:29:46 --> Undefined property: app\Libraries\Shopify_lib::$stores
+in APPPATH\Libraries\Shopify_lib.php on line 60.
+ 1 APPPATH\Libraries\Shopify_lib.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: app\\Libraries\\Shopify_lib::$stores', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Libraries\\Shopify_lib.php', 60, [...])
+ 2 APPPATH\Controllers\Home.php(14): app\Libraries\Shopify_lib->init()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 12:32:34 --> Call to a member function result_array() on array
+in APPPATH\Libraries\Shopify_lib.php on line 59.
+ 1 APPPATH\Controllers\Home.php(14): app\Libraries\Shopify_lib->init()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 12:32:55 --> Undefined index: store_api
+in APPPATH\Libraries\Shopify_lib.php on line 61.
+ 1 APPPATH\Libraries\Shopify_lib.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: store_api', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Libraries\\Shopify_lib.php', 61, [...])
+ 2 APPPATH\Controllers\Home.php(14): app\Libraries\Shopify_lib->init()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:10:49 --> Undefined index: store_api
+in APPPATH\Libraries\Shopify_lib.php on line 60.
+ 1 APPPATH\Libraries\Shopify_lib.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: store_api', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Libraries\\Shopify_lib.php', 60, [...])
+ 2 APPPATH\Controllers\Home.php(14): app\Libraries\Shopify_lib->init()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:12:04 --> Trying to get property 'load' of non-object
+in APPPATH\Libraries\Shopify_lib.php on line 72.
+ 1 APPPATH\Libraries\Shopify_lib.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'load\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Libraries\\Shopify_lib.php', 72, [])
+ 2 APPPATH\Controllers\Home.php(15): app\Libraries\Shopify_lib->check_common_products()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:12:47 --> Class 'app\Libraries\stdClass' not found
+in APPPATH\Libraries\Shopify_lib.php on line 490.
+ 1 APPPATH\Libraries\Shopify_lib.php(80): app\Libraries\Shopify_lib->containsCommonItems([...])
+ 2 APPPATH\Controllers\Home.php(15): app\Libraries\Shopify_lib->check_common_products()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:14:44 --> Undefined property: App\Controllers\Home::$global_model
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$global_model', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Home.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:20:32 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Home.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:21:01 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 21.
+ 1 APPPATH\Controllers\Home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Home.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:21:32 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Home.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:25:48 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in E:\xampp\htdocs\yourlibaas_v4\app\Controllers\Home.php on line 31 and at least 1 expected
+in SYSTEMPATH\View\View.php on line 140.
+ 1 APPPATH\Controllers\Home.php(31): CodeIgniter\View\View->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:27:15 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\home.php on line 2.
+ 1 APPPATH\Views\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:32:34 --> Undefined variable: title
+in APPPATH\Views\includes\header.php on line 8.
+ 1 APPPATH\Views\includes\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\header.php', 8, [...])
+ 2 APPPATH\Views\home.php(2): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Home.php(31): view('home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:33:02 --> Undefined variable: title
+in APPPATH\Views\includes\header.php on line 8.
+ 1 APPPATH\Views\includes\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\header.php', 8, [...])
+ 2 APPPATH\Views\home.php(2): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Home.php(31): view('home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:35:07 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in E:\xampp\htdocs\yourlibaas_v4\app\Controllers\Home.php on line 31 and at least 1 expected
+in SYSTEMPATH\View\View.php on line 140.
+ 1 APPPATH\Controllers\Home.php(31): CodeIgniter\View\View->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:36:32 --> Undefined variable: content
+in APPPATH\Views\home.php on line 3.
+ 1 APPPATH\Views\home.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: content', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:36:56 --> Undefined variable: content
+in APPPATH\Views\home.php on line 3.
+ 1 APPPATH\Views\home.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: content', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:37:39 --> Undefined variable: content
+in APPPATH\Views\home.php on line 2.
+ 1 APPPATH\Views\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: content', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:38:19 --> Undefined variable: content
+in APPPATH\Views\home.php on line 4.
+ 1 APPPATH\Views\home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: content', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:40:47 --> Undefined variable: content
+in APPPATH\Views\home.php on line 4.
+ 1 APPPATH\Views\home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: content', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Home.php(33): CodeIgniter\View\View->render('home')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:42:59 --> Undefined variable: title
+in APPPATH\Views\includes\header.php on line 8.
+ 1 APPPATH\Views\includes\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\header.php', 8, [...])
+ 2 APPPATH\Views\home.php(3): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH\Controllers\Home.php(34): CodeIgniter\View\View->render('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:43:56 --> Undefined property: CodeIgniter\View\View::$benchmark
+in APPPATH\Views\includes\top_header.php on line 37.
+ 1 APPPATH\Views\includes\top_header.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$benchmark', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\top_header.php', 37, [...])
+ 2 APPPATH\Views\home_page.php(1): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\top_header.php')
+ 3 APPPATH\Views\home.php(4): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home_page.php')
+ 4 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 APPPATH\Controllers\Home.php(35): CodeIgniter\View\View->render('home')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:44:54 --> Trying to get property 'option_name' of non-object
+in APPPATH\Views\home_page.php on line 12.
+ 1 APPPATH\Views\home_page.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'option_name\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home_page.php', 12, [...])
+ 2 APPPATH\Views\home.php(4): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home_page.php')
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH\Controllers\Home.php(35): CodeIgniter\View\View->render('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:45:50 --> Trying to get property 'option_name' of non-object
+in APPPATH\Views\home_page.php on line 10.
+ 1 APPPATH\Views\home_page.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'option_name\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home_page.php', 10, [...])
+ 2 APPPATH\Views\home.php(4): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home_page.php')
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH\Controllers\Home.php(35): CodeIgniter\View\View->render('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:46:25 --> Trying to get property 'option_values' of non-object
+in APPPATH\Views\home_page.php on line 11.
+ 1 APPPATH\Views\home_page.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'option_values\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home_page.php', 11, [...])
+ 2 APPPATH\Views\home.php(4): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home_page.php')
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH\Controllers\Home.php(35): CodeIgniter\View\View->render('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:46:45 --> Undefined variable: arr_for_js
+in APPPATH\Views\home_page.php on line 88.
+ 1 APPPATH\Views\home_page.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: arr_for_js', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home_page.php', 88, [...])
+ 2 APPPATH\Views\home.php(4): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home_page.php')
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH\Controllers\Home.php(35): CodeIgniter\View\View->render('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:47:15 --> Trying to get property 'option_name' of non-object
+in APPPATH\Views\includes\footer.php on line 45.
+ 1 APPPATH\Views\includes\footer.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'option_name\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\footer.php', 45, [...])
+ 2 APPPATH\Views\home.php(5): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\footer.php')
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH\Controllers\Home.php(35): CodeIgniter\View\View->render('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:47:53 --> Trying to get property 'option_name' of non-object
+in APPPATH\Views\includes\footer.php on line 47.
+ 1 APPPATH\Views\includes\footer.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'option_name\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\footer.php', 47, [...])
+ 2 APPPATH\Views\home.php(5): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\footer.php')
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH\Controllers\Home.php(35): CodeIgniter\View\View->render('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:48:10 --> Trying to get property 'option_name' of non-object
+in APPPATH\Views\includes\footer.php on line 47.
+ 1 APPPATH\Views\includes\footer.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'option_name\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\footer.php', 47, [...])
+ 2 APPPATH\Views\home.php(5): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\footer.php')
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH\Controllers\Home.php(35): CodeIgniter\View\View->render('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:51:03 --> Trying to get property 'option_name' of non-object
+in APPPATH\Views\includes\footer.php on line 70.
+ 1 APPPATH\Views\includes\footer.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'option_name\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\footer.php', 70, [...])
+ 2 APPPATH\Views\home.php(5): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\footer.php')
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH\Controllers\Home.php(35): CodeIgniter\View\View->render('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 13:51:35 --> Trying to get property 'option_name' of non-object
+in APPPATH\Views\includes\footer.php on line 89.
+ 1 APPPATH\Views\includes\footer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'option_name\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\footer.php', 89, [...])
+ 2 APPPATH\Views\home.php(5): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\includes\\footer.php')
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH\Controllers\Home.php(35): CodeIgniter\View\View->render('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 14:13:41 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\admin/Login::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\admin/Login::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('admin/login')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/login')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 14:16:09 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\admin/Login::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\admin/Login::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('admin/login')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/login')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 14:16:55 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\admin/Login::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\admin/Login::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('admin/login')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/login')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 14:17:59 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Login::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Login::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('admin/login')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/login')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 14:18:40 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Login::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Login::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('admin/login')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/login')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 14:19:53 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\Admin/Login::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\Admin/Login::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('admin/login')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/login')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 14:20:22 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\/Admin/Login::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\/Admin/Login::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('admin/login')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/login')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-05 14:21:55 --> Undefined property: App\Controllers\Admin\Login::$session
+in APPPATH\Controllers\Admin\Login.php on line 21.
+ 1 APPPATH\Controllers\Admin\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin\\Login::$session', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Login.php', 21, [])
+ 2 APPPATH\Controllers\Admin\Login.php(13): App\Controllers\Admin\Login->isLoggedIn()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-05 14:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 14:23:29 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Admin\Login.php on line 22.
+ 1 APPPATH\Controllers\Admin\Login.php(13): App\Controllers\Admin\Login->isLoggedIn()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-05 14:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 14:25:40 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\login.php on line 27.
+ 1 APPPATH\Views\admin\login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\login.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Admin\Login.php(29): CodeIgniter\View\View->render('admin/login')
+ 5 APPPATH\Controllers\Admin\Login.php(13): App\Controllers\Admin\Login->isLoggedIn()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-05 14:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 14:26:08 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\login.php on line 27.
+ 1 APPPATH\Views\admin\login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\login.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Admin\Login.php(29): CodeIgniter\View\View->render('admin/login')
+ 5 APPPATH\Controllers\Admin\Login.php(13): App\Controllers\Admin\Login->isLoggedIn()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-05 14:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 14:26:56 --> Call to undefined function validation_errors()
+in APPPATH\Views\admin\login.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 APPPATH\Controllers\Admin\Login.php(29): CodeIgniter\View\View->render('admin/login')
+ 4 APPPATH\Controllers\Admin\Login.php(13): App\Controllers\Admin\Login->isLoggedIn()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-05 14:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 14:27:19 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\login.php on line 33.
+ 1 APPPATH\Views\admin\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\login.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Admin\Login.php(29): CodeIgniter\View\View->render('admin/login')
+ 5 APPPATH\Controllers\Admin\Login.php(13): App\Controllers\Admin\Login->isLoggedIn()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-05 14:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 14:27:43 --> Undefined variable: error
+in APPPATH\Views\admin\login.php on line 34.
+ 1 APPPATH\Views\admin\login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: error', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\login.php', 34, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Admin\Login.php(29): CodeIgniter\View\View->render('admin/login')
+ 5 APPPATH\Controllers\Admin\Login.php(13): App\Controllers\Admin\Login->isLoggedIn()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-05 14:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 14:27:59 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\login.php on line 42.
+ 1 APPPATH\Views\admin\login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\login.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Admin\Login.php(29): CodeIgniter\View\View->render('admin/login')
+ 5 APPPATH\Controllers\Admin\Login.php(13): App\Controllers\Admin\Login->isLoggedIn()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-05 14:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

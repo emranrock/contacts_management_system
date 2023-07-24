@@ -1,0 +1,144 @@
+INFO - 2023-06-10 07:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 07:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 07:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 07:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 07:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 07:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-10 07:57:28 --> mysqli_sql_exception: Table 'yourlibaas.settings' doesn't exist in E:\xampp\htdocs\yourlibaas_v4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\yourlibaas_v4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\yourlibaas_v4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\yourlibaas_v4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\yourlibaas_v4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\yourlibaas_v4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\yourlibaas_v4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\yourlibaas_v4\app\Controllers\Admin\Settings.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\yourlibaas_v4\system\CodeIgniter.php(934): App\Controllers\Admin\Settings->index()
+#8 E:\xampp\htdocs\yourlibaas_v4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings))
+#9 E:\xampp\htdocs\yourlibaas_v4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\yourlibaas_v4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\yourlibaas_v4\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-06-10 07:57:28 --> Table 'yourlibaas.settings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `settings`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `settings`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `settings`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Settings.php(14): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Settings->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-10 07:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 07:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 08:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 08:01:52 --> Invalid file: "admin/settings.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/settings.php')
+ 2 APPPATH\Controllers\Admin\Settings.php(18): CodeIgniter\View\View->render('admin/settings')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Settings->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-10 08:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 08:02:57 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\settings\general_setting.php on line 8.
+ 1 APPPATH\Views\admin\settings\general_setting.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\settings\\general_setting.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\settings\\general_setting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Admin\Settings.php(18): CodeIgniter\View\View->render('admin/settings/general_setting')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Settings->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-10 08:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 08:04:22 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\settings\general_setting.php on line 11.
+ 1 APPPATH\Views\admin\settings\general_setting.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\settings\\general_setting.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\settings\\general_setting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Admin\Settings.php(18): CodeIgniter\View\View->render('admin/settings/general_setting')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Settings->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-10 08:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 08:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 08:06:02 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\settings\stores.php on line 4.
+ 1 APPPATH\Views\admin\settings\stores.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\settings\\stores.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\settings\\stores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Admin\Settings.php(18): CodeIgniter\View\View->render('admin/settings/stores')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Settings->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-10 08:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 08:07:57 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\settings\stores.php on line 6.
+ 1 APPPATH\Views\admin\settings\stores.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\settings\\stores.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\settings\\stores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Admin\Settings.php(18): CodeIgniter\View\View->render('admin/settings/stores')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Settings->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-10 08:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 08:08:57 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\includes\alert_bar.php on line 2.
+ 1 APPPATH\Views\admin\includes\alert_bar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\includes\\alert_bar.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\includes\\alert_bar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin/includes/alert_bar', null, true)
+ 5 APPPATH\Views\admin\settings\stores.php(6): CodeIgniter\View\View->include('admin/includes/alert_bar')
+ 6 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\settings\\stores.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 APPPATH\Controllers\Admin\Settings.php(18): CodeIgniter\View\View->render('admin/settings/stores')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Settings->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-10 08:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 08:10:40 --> Undefined variable: session
+in APPPATH\Views\admin\includes\alert_bar.php on line 2.
+ 1 APPPATH\Views\admin\includes\alert_bar.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\includes\\alert_bar.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\includes\\alert_bar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin/includes/alert_bar', null, true)
+ 5 APPPATH\Views\admin\settings\stores.php(6): CodeIgniter\View\View->include('admin/includes/alert_bar')
+ 6 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\settings\\stores.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 APPPATH\Controllers\Admin\Settings.php(18): CodeIgniter\View\View->render('admin/settings/stores')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Settings->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-10 08:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 08:12:36 --> Trying to get property 'store_name' of non-object
+in APPPATH\Views\admin\settings\stores.php on line 52.
+ 1 APPPATH\Views\admin\settings\stores.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'store_name\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\settings\\stores.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\settings\\stores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Admin\Settings.php(18): CodeIgniter\View\View->render('admin/settings/stores')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Settings->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')

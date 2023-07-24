@@ -1,0 +1,207 @@
+INFO - 2023-06-19 06:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 06:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 06:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 06:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 06:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 06:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 06:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 06:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 06:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 06:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 07:32:40 --> Undefined property: stdClass::$currency
+in APPPATH\Controllers\Admin\Forward.php on line 55.
+ 1 APPPATH\Controllers\Admin\Forward.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$currency', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Forward.php', 55, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(96): App\Controllers\Admin\Forward->App\Controllers\Admin\{closure}(Object(stdClass))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 APPPATH\Controllers\Admin\Forward.php(56): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Forward->load_orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Forward))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-19 07:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 07:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 08:25:29 --> Too few arguments to function App\Controllers\Admin\Forward::App\Controllers\Admin\{closure}(), 1 passed in E:\xampp\htdocs\yourlibaas_v4\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php on line 96 and exactly 2 expected
+in APPPATH\Controllers\Admin\Forward.php on line 56.
+ 1 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(96): App\Controllers\Admin\Forward->App\Controllers\Admin\{closure}(Object(stdClass))
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 3 APPPATH\Controllers\Admin\Forward.php(104): Hermawan\DataTables\DataTable->toJson()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Forward->load_orders()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Forward))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-19 08:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 08:28:35 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Admin\Forward.php on line 58.
+ 1 APPPATH\Controllers\Admin\Forward.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Forward.php', 58, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(96): App\Controllers\Admin\Forward->App\Controllers\Admin\{closure}(Object(stdClass))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 APPPATH\Controllers\Admin\Forward.php(104): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Forward->load_orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Forward))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-19 08:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 08:39:04 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Admin\Forward.php on line 59.
+ 1 APPPATH\Controllers\Admin\Forward.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Forward.php', 59, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(96): App\Controllers\Admin\Forward->App\Controllers\Admin\{closure}(Object(stdClass))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 APPPATH\Controllers\Admin\Forward.php(105): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Forward->load_orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Forward))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-19 08:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 09:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 09:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 09:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 09:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 09:46:05 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\kint-php\kint\src\Parser\FsPathPlugin.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-06-19 09:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 09:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 09:49:24 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\kint-php\kint\src\Utils.php on line 77.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-06-19 09:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 09:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 09:54:25 --> Undefined variable: dec_line_item
+in APPPATH\Controllers\Admin\Forward.php on line 60.
+ 1 APPPATH\Controllers\Admin\Forward.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dec_line_item', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Forward.php', 60, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(96): App\Controllers\Admin\Forward->App\Controllers\Admin\{closure}(Object(stdClass))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 APPPATH\Controllers\Admin\Forward.php(106): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Forward->load_orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Forward))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-19 09:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 09:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 09:57:26 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Admin\Forward.php on line 60.
+ 1 APPPATH\Controllers\Admin\Forward.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Forward.php', 60, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(96): App\Controllers\Admin\Forward->App\Controllers\Admin\{closure}(Object(stdClass))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 APPPATH\Controllers\Admin\Forward.php(106): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Forward->load_orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Forward))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-19 09:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 09:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 13:34:28 --> Undefined variable: couriers
+in APPPATH\Views\admin\couriers\manage.php on line 29.
+ 1 APPPATH\Views\admin\couriers\manage.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: couriers', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\couriers\\manage.php', 29, [])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\couriers\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/couriers/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Couriers.php(42): view('admin/couriers/manage')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Couriers->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Couriers))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-19 13:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 13:37:40 --> Undefined variable: couriers
+in APPPATH\Views\admin\couriers\manage.php on line 30.
+ 1 APPPATH\Views\admin\couriers\manage.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: couriers', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\couriers\\manage.php', 30, [])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\couriers\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/couriers/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Couriers.php(42): view('admin/couriers/manage')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Couriers->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Couriers))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-19 13:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 13:43:46 --> Undefined variable: massage
+in APPPATH\Views\admin\includes\alert_bar.php on line 4.
+ 1 APPPATH\Views\admin\includes\alert_bar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: massage', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\includes\\alert_bar.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\includes\\alert_bar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin/includes/alert_bar', null, true)
+ 5 APPPATH\Views\admin\couriers\manage.php(5): CodeIgniter\View\View->include('admin/includes/alert_bar')
+ 6 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\couriers\\manage.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/couriers/manage', [], true)
+ 9 APPPATH\Controllers\Admin\Couriers.php(42): view('admin/couriers/manage', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Couriers->manage()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Couriers))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-19 13:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 13:52:11 --> Undefined variable: massage
+in APPPATH\Views\admin\includes\alert_bar.php on line 4.
+ 1 APPPATH\Views\admin\includes\alert_bar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: massage', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\includes\\alert_bar.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\includes\\alert_bar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin/includes/alert_bar', null, true)
+ 5 APPPATH\Views\admin\couriers\manage.php(5): CodeIgniter\View\View->include('admin/includes/alert_bar')
+ 6 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\couriers\\manage.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/couriers/manage', [], true)
+ 9 APPPATH\Controllers\Admin\Couriers.php(42): view('admin/couriers/manage', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Couriers->manage()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Couriers))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-19 13:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 13:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

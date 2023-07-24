@@ -1,0 +1,452 @@
+CRITICAL - 2023-06-14 09:35:27 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\ThirdParty\Kint\Parser\TracePlugin.php on line 121.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-06-14 09:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 09:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 09:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 09:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 09:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 09:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 09:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 09:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 09:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 09:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 09:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 09:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 09:50:04 --> Call to undefined function get_instance()
+in APPPATH\Helpers\comm_helper.php on line 755.
+ 1 APPPATH\Controllers\Admin\Couriers.php(52): decode_url('13')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Couriers->edit('13')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Couriers))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 09:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 09:53:43 --> Trying to get property 'couriers_name' of non-object
+in APPPATH\Views\admin\couriers\edit.php on line 4.
+ 1 APPPATH\Views\admin\couriers\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'couriers_name\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\couriers\\edit.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\couriers\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Admin\Couriers.php(78): CodeIgniter\View\View->render('admin/couriers/edit')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Couriers->edit('13')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Couriers))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 09:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 09:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 09:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 09:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 09:58:20 --> Undefined variable: row
+in APPPATH\Views\admin\couriers\edit.php on line 3.
+ 1 APPPATH\Views\admin\couriers\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\couriers\\edit.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\couriers\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Admin\Couriers.php(78): CodeIgniter\View\View->render('admin/couriers/edit')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Couriers->edit('13')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Couriers))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 09:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 09:58:39 --> Undefined variable: row
+in APPPATH\Views\admin\couriers\edit.php on line 30.
+ 1 APPPATH\Views\admin\couriers\edit.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\couriers\\edit.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\couriers\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Admin\Couriers.php(78): CodeIgniter\View\View->render('admin/couriers/edit')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Couriers->edit('13')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Couriers))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 09:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 09:59:57 --> Undefined variable: row
+in APPPATH\Views\admin\couriers\edit.php on line 28.
+ 1 APPPATH\Views\admin\couriers\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\couriers\\edit.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\couriers\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH\Controllers\Admin\Couriers.php(78): CodeIgniter\View\View->render('admin/couriers/edit')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Couriers->edit('13')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Couriers))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 10:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 10:14:46 --> json_decode() expects parameter 1 to be string, object given
+in APPPATH\Views\admin\settings\general_setting.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, object given', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\settings\\general_setting.php', 6, [...])
+ 2 APPPATH\Views\admin\settings\general_setting.php(6): json_decode(Object(App\Models\Option), true)
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\settings\\general_setting.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH\Controllers\Admin\Settings.php(57): CodeIgniter\View\View->render('admin/settings/general_setting')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Settings->general_setting()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 10:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 10:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 11:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 11:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 11:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 11:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 12:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 12:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 12:32:33 --> Undefined property: App\Controllers\Admin\Employees::$global_model
+in APPPATH\Controllers\Admin\Employees.php on line 50.
+ 1 APPPATH\Controllers\Admin\Employees.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin\\Employees::$global_model', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Employees.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->manage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 12:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 12:40:39 --> Undefined property: App\Controllers\Admin\Employees::$global_model
+in APPPATH\Controllers\Admin\Employees.php on line 44.
+ 1 APPPATH\Controllers\Admin\Employees.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin\\Employees::$global_model', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Employees.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->manage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 12:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 12:46:32 --> whereNotIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(853): CodeIgniter\Database\BaseBuilder->_whereIn('roleId', 1, true, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereNotIn('roleId', 1)
+ 3 APPPATH\Controllers\Admin\Employees.php(45): CodeIgniter\Model->__call('whereNotIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->manage()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 12:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 12:48:35 --> whereNotIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(853): CodeIgniter\Database\BaseBuilder->_whereIn('roleId', '1', true, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereNotIn('roleId', '1')
+ 3 APPPATH\Controllers\Admin\Employees.php(45): CodeIgniter\Model->__call('whereNotIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->manage()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 12:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-14 12:48:52 --> mysqli_sql_exception: Column 'roleId' in where clause is ambiguous in E:\xampp\htdocs\yourlibaas_v4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\yourlibaas_v4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\yourlibaas_v4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\yourlibaas_v4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\yourlibaas_v4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\yourlibaas_v4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\yourlibaas_v4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\yourlibaas_v4\app\Controllers\Admin\Employees.php(45): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\yourlibaas_v4\system\CodeIgniter.php(934): App\Controllers\Admin\Employees->manage()
+#8 E:\xampp\htdocs\yourlibaas_v4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+#9 E:\xampp\htdocs\yourlibaas_v4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\yourlibaas_v4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\yourlibaas_v4\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-06-14 12:48:52 --> Column 'roleId' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_users`
+JOIN `tbl_roles` ON `tbl_users`.`roleId` = `tbl_roles`.`roleId`
+WHERE `roleId` NOT IN (1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`
+JOIN `tbl_roles` ON `tbl_users`.`roleId` = `tbl_roles`.`roleId`
+WHERE `roleId` NOT IN (1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`
+JOIN `tbl_roles` ON `tbl_users`.`roleId` = `tbl_roles`.`roleId`
+WHERE `roleId` NOT IN (1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`
+JOIN `tbl_roles` ON `tbl_users`.`roleId` = `tbl_roles`.`roleId`
+WHERE `roleId` NOT IN :roleId:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Employees.php(45): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->manage()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 12:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 12:49:15 --> Invalid file: "employees/manage.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employees/manage.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('employees/manage', [], true)
+ 3 APPPATH\Controllers\Admin\Employees.php(46): view('employees/manage', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->manage()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 12:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 12:50:24 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\employees\manage.php on line 3.
+ 1 APPPATH\Views\admin\employees\manage.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\manage.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/employees/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Employees.php(46): view('admin/employees/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 12:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 12:50:57 --> Trying to get property 'full_name' of non-object
+in APPPATH\Views\admin\employees\manage.php on line 33.
+ 1 APPPATH\Views\admin\employees\manage.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'full_name\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\manage.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/employees/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Employees.php(46): view('admin/employees/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:00:22 --> Call to undefined function get_instance()
+in APPPATH\Helpers\comm_helper.php on line 747.
+ 1 APPPATH\Views\admin\employees\manage.php(38): encode_url('23')
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/employees/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Employees.php(46): view('admin/employees/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 13:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 13:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 13:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:21:21 --> whereNotIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(853): CodeIgniter\Database\BaseBuilder->_whereIn('roleId', 1, true, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereNotIn('roleId', 1)
+ 3 APPPATH\Controllers\Admin\Employees.php(37): CodeIgniter\Model->__call('whereNotIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:21:40 --> Trying to get property 'roleId' of non-object
+in APPPATH\Views\admin\employees\add.php on line 41.
+ 1 APPPATH\Views\admin\employees\add.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'roleId\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\add.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/employees/add', [], true)
+ 5 APPPATH\Controllers\Admin\Employees.php(38): view('admin/employees/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:25:34 --> Trying to get property 'roleId' of non-object
+in APPPATH\Views\admin\employees\add.php on line 38.
+ 1 APPPATH\Views\admin\employees\add.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'roleId\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\add.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/employees/add', [], true)
+ 5 APPPATH\Controllers\Admin\Employees.php(38): view('admin/employees/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:26:17 --> Trying to get property 'roleId' of non-object
+in APPPATH\Views\admin\employees\add.php on line 38.
+ 1 APPPATH\Views\admin\employees\add.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'roleId\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\add.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/employees/add', [], true)
+ 5 APPPATH\Controllers\Admin\Employees.php(38): view('admin/employees/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:26:41 --> Trying to get property 'roleId' of non-object
+in APPPATH\Views\admin\employees\add.php on line 38.
+ 1 APPPATH\Views\admin\employees\add.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'roleId\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\add.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/employees/add', [], true)
+ 5 APPPATH\Controllers\Admin\Employees.php(38): view('admin/employees/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:27:19 --> Trying to get property 'roleId' of non-object
+in APPPATH\Views\admin\employees\add.php on line 38.
+ 1 APPPATH\Views\admin\employees\add.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'roleId\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\add.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/employees/add', [], true)
+ 5 APPPATH\Controllers\Admin\Employees.php(38): view('admin/employees/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 13:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 13:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 13:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:31:35 --> whereNotIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(853): CodeIgniter\Database\BaseBuilder->_whereIn('roleId', 1, true, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereNotIn('roleId', 1)
+ 3 APPPATH\Controllers\Admin\Employees.php(81): CodeIgniter\Model->__call('whereNotIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->edit('22')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:32:04 --> Trying to get property 'full_name' of non-object
+in APPPATH\Views\admin\employees\edit.php on line 4.
+ 1 APPPATH\Views\admin\employees\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'full_name\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\edit.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/employees/edit', [], true)
+ 5 APPPATH\Controllers\Admin\Employees.php(82): view('admin/employees/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:33:02 --> Undefined variable: row
+in APPPATH\Views\admin\employees\edit.php on line 3.
+ 1 APPPATH\Views\admin\employees\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\edit.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/employees/edit', [], true)
+ 5 APPPATH\Controllers\Admin\Employees.php(82): view('admin/employees/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:33:21 --> Trying to get property 'full_name' of non-object
+in APPPATH\Views\admin\employees\edit.php on line 3.
+ 1 APPPATH\Views\admin\employees\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'full_name\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\edit.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/employees/edit', [], true)
+ 5 APPPATH\Controllers\Admin\Employees.php(82): view('admin/employees/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:34:11 --> Undefined variable: row
+in APPPATH\Views\admin\employees\edit.php on line 33.
+ 1 APPPATH\Views\admin\employees\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\edit.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/employees/edit', [], true)
+ 5 APPPATH\Controllers\Admin\Employees.php(82): view('admin/employees/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:48:07 --> Undefined variable: row
+in APPPATH\Views\admin\employees\edit.php on line 33.
+ 1 APPPATH\Views\admin\employees\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\edit.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/employees/edit', [], true)
+ 5 APPPATH\Controllers\Admin\Employees.php(82): view('admin/employees/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:48:22 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\employees\edit.php on line 72.
+ 1 APPPATH\Views\admin\employees\edit.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\edit.php', 72, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\employees\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/employees/edit', [], true)
+ 5 APPPATH\Controllers\Admin\Employees.php(82): view('admin/employees/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Employees->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Employees))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 13:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 13:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 13:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:56:10 --> Cannot declare class App\Controllers\Admin\Working because the name is already in use
+in APPPATH\Controllers\Admin\Working.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-06-14 13:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 13:58:43 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\working_hours\manage.php on line 3.
+ 1 APPPATH\Views\admin\working_hours\manage.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\working_hours\\manage.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\working_hours\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/working_hours/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Working.php(19): view('admin/working_hours/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Working->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Working))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 14:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-14 14:00:38 --> Trying to get property 'user_id' of non-object
+in APPPATH\Views\admin\working_hours\manage.php on line 37.
+ 1 APPPATH\Views\admin\working_hours\manage.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'user_id\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\working_hours\\manage.php', 37, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\working_hours\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/working_hours/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Working.php(19): view('admin/working_hours/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Working->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Working))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-14 14:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 14:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 15:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 15:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 15:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-14 15:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,112 @@
+INFO - 2023-06-15 13:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 13:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 13:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-15 13:16:22 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\kint-php\kint\src\Renderer\RichRenderer.php on line 595.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-06-15 13:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-15 13:17:32 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\kint-php\kint\src\Zval\Representation\SplFileInfoRepresentation.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-06-15 13:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-15 13:20:33 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\kint-php\kint\src\Zval\Representation\SplFileInfoRepresentation.php on line 61.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-06-15 13:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-15 13:21:55 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\kint-php\kint\src\Zval\Representation\SplFileInfoRepresentation.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-06-15 13:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 13:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 13:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-15 13:31:29 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'E:\xampp\htdocs\yourlibaas_v4\public\vendor/autoload.php' (include_path='E:\xampp\php\PEAR')
+in APPPATH\Controllers\Admin\Analytics.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-06-15 13:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-15 13:32:41 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\analytics\manage.php on line 5.
+ 1 APPPATH\Views\admin\analytics\manage.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\analytics\\manage.php', 5, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\analytics\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/analytics/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Analytics.php(18): view('admin/analytics/manage', [...])
+ 6 APPPATH\Controllers\Admin\Analytics.php(12): App\Controllers\Admin\Analytics->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Analytics->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Analytics))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-15 13:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-15 13:33:26 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\analytics\manage.php on line 5.
+ 1 APPPATH\Views\admin\analytics\manage.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\analytics\\manage.php', 5, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\analytics\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/analytics/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Analytics.php(16): view('admin/analytics/manage', [...])
+ 6 APPPATH\Controllers\Admin\Analytics.php(10): App\Controllers\Admin\Analytics->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Analytics->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Analytics))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-15 13:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 13:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-15 13:35:30 --> Invalid file: "./includes/alert_bar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./includes/alert_bar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('./includes/alert_bar', null, true)
+ 3 APPPATH\Views\admin\analytics\manage.php(5): CodeIgniter\View\View->include('./includes/alert_bar')
+ 4 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\analytics\\manage.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/analytics/manage', [], true)
+ 7 APPPATH\Controllers\Admin\Analytics.php(16): view('admin/analytics/manage', [...])
+ 8 APPPATH\Controllers\Admin\Analytics.php(10): App\Controllers\Admin\Analytics->manage()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Analytics->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Analytics))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-15 13:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 13:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 13:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 13:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 13:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 13:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 13:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 13:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 13:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 13:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 14:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 14:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 14:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 14:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-15 14:04:47 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'E:\xampp\htdocs\yourlibaas_v4\public\vendor/autoload.php' (include_path='E:\xampp\php\PEAR')
+in APPPATH\Libraries\Ga.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-06-15 14:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-15 14:06:00 --> Class 'app\Libraries\Google_Client' not found
+in APPPATH\Libraries\Ga.php on line 21.
+ 1 SYSTEMPATH\Config\Factories.php(129): app\Libraries\Ga->__construct()
+ 2 APPPATH\Controllers\Admin\Analytics.php(21): CodeIgniter\Config\Factories::__callStatic('libraries', [])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Analytics->load_tables()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Analytics))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-15 14:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 14:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-15 14:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-15 14:31:43 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\credits\manage.php on line 6.
+ 1 APPPATH\Views\admin\credits\manage.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\credits\\manage.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\credits\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/credits/manage', [], true)
+ 5 APPPATH\Controllers\Admin\User_credits.php(14): view('admin/credits/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\User_credits->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User_credits))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-15 14:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

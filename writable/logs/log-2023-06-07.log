@@ -1,0 +1,312 @@
+INFO - 2023-06-07 06:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 06:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-07 07:02:21 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 APPPATH\Controllers\Admin\Login.php(26): CodeIgniter\View\View->render('login')
+ 3 APPPATH\Controllers\Admin\Login.php(13): App\Controllers\Admin\Login->isLoggedIn()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-07 07:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-07 07:26:48 --> Undefined property: App\Controllers\Admin\Login::$form_validation
+in APPPATH\Controllers\Admin\Login.php on line 31.
+ 1 APPPATH\Controllers\Admin\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin\\Login::$form_validation', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Login.php', 31, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-07 07:28:25 --> Too few arguments to function App\Controllers\Admin\Login::loginMe(), 0 passed in E:\xampp\htdocs\yourlibaas_v4\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\Admin\Login.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-07 07:30:37 --> Undefined property: App\Controllers\Admin\Login::$form_validation
+in APPPATH\Controllers\Admin\Login.php on line 34.
+ 1 APPPATH\Controllers\Admin\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin\\Login::$form_validation', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Login.php', 34, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+ERROR - 2023-06-07 07:38:01 --> mysqli_sql_exception: Table 'yourlibaas.users' doesn't exist in E:\xampp\htdocs\yourlibaas_v4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\yourlibaas_v4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 E:\xampp\htdocs\yourlibaas_v4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 E:\xampp\htdocs\yourlibaas_v4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 E:\xampp\htdocs\yourlibaas_v4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\yourlibaas_v4\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\yourlibaas_v4\system\Validation\Validation.php(321): CodeIgniter\Validation\StrictRules\Rules->is_unique('imra8233@gmail....', 'email', Array, NULL, 'email')
+#6 E:\xampp\htdocs\yourlibaas_v4\system\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('email', 'email', 'imra8233@gmail....', Array, Array)
+#7 E:\xampp\htdocs\yourlibaas_v4\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 E:\xampp\htdocs\yourlibaas_v4\app\Controllers\Admin\Login.php(37): CodeIgniter\Controller->validate(Array)
+#9 E:\xampp\htdocs\yourlibaas_v4\system\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+#10 E:\xampp\htdocs\yourlibaas_v4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#11 E:\xampp\htdocs\yourlibaas_v4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\xampp\htdocs\yourlibaas_v4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 E:\xampp\htdocs\yourlibaas_v4\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-06-07 07:38:01 --> Table 'yourlibaas.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'imra8233@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'imra8233@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'imra8233@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(321): CodeIgniter\Validation\StrictRules\Rules->is_unique('imra8233@gmail.com', 'email', [...], null, 'email')
+ 7 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('email', 'email', 'imra8233@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin\Login.php(37): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+ERROR - 2023-06-07 07:39:10 --> mysqli_sql_exception: Table 'yourlibaas.users' doesn't exist in E:\xampp\htdocs\yourlibaas_v4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\yourlibaas_v4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 E:\xampp\htdocs\yourlibaas_v4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 E:\xampp\htdocs\yourlibaas_v4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 E:\xampp\htdocs\yourlibaas_v4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\yourlibaas_v4\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\yourlibaas_v4\system\Validation\Validation.php(321): CodeIgniter\Validation\StrictRules\Rules->is_unique('imra8233@gmail....', 'email', Array, NULL, 'email')
+#6 E:\xampp\htdocs\yourlibaas_v4\system\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('email', 'email', 'imra8233@gmail....', Array, Array)
+#7 E:\xampp\htdocs\yourlibaas_v4\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 E:\xampp\htdocs\yourlibaas_v4\app\Controllers\Admin\Login.php(37): CodeIgniter\Controller->validate(Array)
+#9 E:\xampp\htdocs\yourlibaas_v4\system\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+#10 E:\xampp\htdocs\yourlibaas_v4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#11 E:\xampp\htdocs\yourlibaas_v4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\xampp\htdocs\yourlibaas_v4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 E:\xampp\htdocs\yourlibaas_v4\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-06-07 07:39:10 --> Table 'yourlibaas.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'imra8233@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'imra8233@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'imra8233@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(321): CodeIgniter\Validation\StrictRules\Rules->is_unique('imra8233@gmail.com', 'email', [...], null, 'email')
+ 7 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('email', 'email', 'imra8233@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin\Login.php(37): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-07 07:41:00 --> "alpha_numeric_spaces" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 329.
+ 1 SYSTEMPATH\Validation\Validation.php(329): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('alpha_numeric_spaces')
+ 2 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('password', 'password', 'imra8233', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Admin\Login.php(37): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-07 07:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-07 07:42:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Login_model.php on line 30.
+ 1 APPPATH\Controllers\Admin\Login.php(48): App\Models\Login_model->loginMe('imra8233@gmail.com', 'imra8233')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-07 07:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-07 07:50:11 --> Trying to get property 'userId' of non-object
+in APPPATH\Controllers\Admin\Login.php on line 54.
+ 1 APPPATH\Controllers\Admin\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'userId\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Login.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-07 07:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-07 07:51:36 --> Trying to get property 'userId' of non-object
+in APPPATH\Controllers\Admin\Login.php on line 54.
+ 1 APPPATH\Controllers\Admin\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'userId\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Login.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-07 07:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-07 07:52:00 --> Trying to get property 'userId' of non-object
+in APPPATH\Controllers\Admin\Login.php on line 54.
+ 1 APPPATH\Controllers\Admin\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'userId\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Login.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-07 07:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-07 07:52:22 --> Trying to get property 'userId' of non-object
+in APPPATH\Controllers\Admin\Login.php on line 55.
+ 1 APPPATH\Controllers\Admin\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'userId\' of non-object', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Login.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-07 07:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-07 07:53:57 --> Undefined index: role
+in APPPATH\Controllers\Admin\Login.php on line 56.
+ 1 APPPATH\Controllers\Admin\Login.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: role', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Login.php', 56, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+INFO - 2023-06-07 08:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-07 08:07:09 --> Cannot declare class App\Controllers\User because the name is already in use
+in APPPATH\Controllers\Admin\User.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-07 08:12:59 --> Undefined constant 'App\Models\User'
+in APPPATH\Controllers\Admin\Users.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-07 08:14:05 --> Call to undefined method App\Models\User::all
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin\Users.php(18): CodeIgniter\Model->__call('all', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-07 08:14:34 --> Undefined property: App\Controllers\Admin\Users::$global_model
+in APPPATH\Controllers\Admin\Users.php on line 20.
+ 1 APPPATH\Controllers\Admin\Users.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin\\Users::$global_model', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Controllers\\Admin\\Users.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-07 08:25:37 --> Class 'App\Modes\Ndr' not found
+in APPPATH\Controllers\Admin\Users.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-07 08:27:19 --> Class 'App\Modes\Ndr' not found
+in APPPATH\Controllers\Admin\Users.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-07 08:27:34 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\template.php on line 2.
+ 1 APPPATH\Views\admin\template.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\template.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/template', [], true)
+ 5 APPPATH\Controllers\Admin\Users.php(36): view('admin/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-07 08:28:29 --> include(admin/includes/header.php): failed to open stream: No such file or directory
+in APPPATH\Views\admin\template.php on line 2.
+ 1 APPPATH\Views\admin\template.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(admin/includes/header.php): failed to open stream: No such file or directory', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\template.php', 2, [...])
+ 2 APPPATH\Views\admin\template.php(2): include()
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\template.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/template', [], true)
+ 6 APPPATH\Controllers\Admin\Users.php(36): view('admin/template', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-07 08:30:03 --> include(admin/includes/header.php): failed to open stream: No such file or directory
+in APPPATH\Views\admin\template.php on line 2.
+ 1 APPPATH\Views\admin\template.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(admin/includes/header.php): failed to open stream: No such file or directory', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\template.php', 2, [...])
+ 2 APPPATH\Views\admin\template.php(2): include()
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\template.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH\Controllers\Admin\Users.php(38): CodeIgniter\View\View->render('admin/template')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')
+CRITICAL - 2023-06-07 08:31:15 --> include(admin/includes/header.php): failed to open stream: No such file or directory
+in APPPATH\Views\admin\template.php on line 2.
+ 1 APPPATH\Views\admin\template.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(admin/includes/header.php): failed to open stream: No such file or directory', 'E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\template.php', 2, [...])
+ 2 APPPATH\Views\admin\template.php(2): include()
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\yourlibaas_v4\\app\\Views\\admin\\template.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH\Controllers\Admin\Users.php(38): CodeIgniter\View\View->render('admin/template')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\yourlibaas_v4\\public\\index.php')

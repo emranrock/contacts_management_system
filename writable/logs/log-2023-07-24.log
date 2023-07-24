@@ -1,0 +1,468 @@
+CRITICAL - 2023-07-24 06:08:55 --> Undefined index: group
+in APPPATH\Views\admin\contacts\manage.php on line 50.
+ 1 APPPATH\Views\admin\contacts\manage.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: group', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\manage.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/contacts/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Contact.php(22): view('admin/contacts/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 06:09:25 --> Undefined index: id
+in APPPATH\Views\admin\contacts\manage.php on line 52.
+ 1 APPPATH\Views\admin\contacts\manage.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\manage.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/contacts/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Contact.php(22): view('admin/contacts/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+ERROR - 2023-07-24 06:17:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `groups` ON `groups`.`group_id`=`id`' at line 3 in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `contact...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `contact...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `contact...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `contact...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Contact.php(19): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-24 06:17:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `groups` ON `groups`.`group_id`=`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Contact.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+ERROR - 2023-07-24 06:27:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `groups` ON `groups`.`group_id`=`id`' at line 3 in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `contact...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `contact...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `contact...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `contact...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Contact.php(19): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-24 06:27:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `groups` ON `groups`.`group_id`=`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Contact.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+ERROR - 2023-07-24 06:27:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `groups` ON `groups`.`group_id`=`id`' at line 3 in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `contact...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `contact...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `contact...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `contact...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Contact.php(19): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-24 06:27:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `groups` ON `groups`.`group_id`=`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Contact.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+ERROR - 2023-07-24 06:31:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `groups` ON `groups`.`group_id`=`id`' at line 3 in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `contact...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `contact...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `contact...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `contact...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Contact.php(19): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-24 06:31:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `groups` ON `groups`.`group_id`=`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Contact.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+ERROR - 2023-07-24 06:33:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `groups` ON `groups`.`group_id`=`id`' at line 3 in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `contact...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `contact...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `contact...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `contact...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Contact.php(19): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-24 06:33:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `groups` ON `groups`.`group_id`=`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `contacts`.`id`, `contacts`.`name`, `contacts`.`email`, `contacts`.`phone`, `groups`.`name` as `group_name`
+FROM `contacts`
+OUTER JOIN `groups` ON `groups`.`group_id`=`id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Contact.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+ERROR - 2023-07-24 06:34:14 --> mysqli_sql_exception: Unknown column 'contacts*' in 'field list' in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `contact...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `contact...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `contact...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `contact...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Contact.php(19): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-24 06:34:14 --> Unknown column 'contacts*' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `contacts*`, `groups`.`name` as `group_name`
+FROM `contacts`
+RIGHT OUTER JOIN `groups` ON `groups`.`group_id`=`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `contacts*`, `groups`.`name` as `group_name`
+FROM `contacts`
+RIGHT OUTER JOIN `groups` ON `groups`.`group_id`=`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `contacts*`, `groups`.`name` as `group_name`
+FROM `contacts`
+RIGHT OUTER JOIN `groups` ON `groups`.`group_id`=`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `contacts*`, `groups`.`name` as `group_name`
+FROM `contacts`
+RIGHT OUTER JOIN `groups` ON `groups`.`group_id`=`id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Contact.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+ERROR - 2023-07-24 06:37:54 --> mysqli_sql_exception: Unknown column 'contacts*' in 'field list' in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `contact...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `contact...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `contact...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `contact...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Contact.php(20): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-24 06:37:54 --> Unknown column 'contacts*' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `contacts*`, `groups`.`name` as `group_name`
+FROM `contacts`
+LEFT OUTER JOIN `groups` ON `groups`.`group_id`=`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `contacts*`, `groups`.`name` as `group_name`
+FROM `contacts`
+LEFT OUTER JOIN `groups` ON `groups`.`group_id`=`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `contacts*`, `groups`.`name` as `group_name`
+FROM `contacts`
+LEFT OUTER JOIN `groups` ON `groups`.`group_id`=`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `contacts*`, `groups`.`name` as `group_name`
+FROM `contacts`
+LEFT OUTER JOIN `groups` ON `groups`.`group_id`=`id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Contact.php(20): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 06:40:07 --> Undefined variable: db
+in APPPATH\Controllers\Admin\Contact.php on line 21.
+ 1 APPPATH\Controllers\Admin\Contact.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Controllers\\Admin\\Contact.php', 21, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+ERROR - 2023-07-24 06:41:23 --> mysqli_sql_exception: Unknown column 'groups_id' in 'on clause' in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Contact.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+#6 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+#7 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-24 06:41:23 --> Unknown column 'groups_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `contacts`
+JOIN `groups` ON `groups_id` = `contacts`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `contacts`
+JOIN `groups` ON `groups_id` = `contacts`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `contacts`
+JOIN `groups` ON `groups_id` = `contacts`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `contacts`
+JOIN `groups` ON `groups_id` = `contacts`.`id`', [], false)
+ 5 APPPATH\Controllers\Admin\Contact.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 06:41:42 --> Cannot use object of type mysqli as array
+in APPPATH\Views\admin\contacts\manage.php on line 47.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/contacts/manage', [], true)
+ 4 APPPATH\Controllers\Admin\Contact.php(29): view('admin/contacts/manage', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 07:10:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\contacts\show.php on line 33.
+ 1 APPPATH\Views\admin\contacts\show.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\show.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/contacts/show', [], true)
+ 5 APPPATH\Controllers\Admin\Contact.php(71): view('admin/contacts/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->show('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 07:26:33 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\kint-php\kint\src\Zval\Representation\SplFileInfoRepresentation.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-24 07:28:07 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\kint-php\kint\src\Parser\FsPathPlugin.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-24 07:29:21 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\kint-php\kint\src\Parser\FsPathPlugin.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-24 07:32:45 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\kint-php\kint\src\Parser\FsPathPlugin.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-24 08:03:42 --> Undefined variable: validation
+in APPPATH\Views\admin\contacts\add.php on line 37.
+ 1 APPPATH\Views\admin\contacts\add.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\add.php', 37, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/contacts/add', [], true)
+ 5 APPPATH\Controllers\Admin\Contact.php(56): view('admin/contacts/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 08:04:09 --> Undefined variable: validator
+in APPPATH\Views\admin\contacts\add.php on line 37.
+ 1 APPPATH\Views\admin\contacts\add.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validator', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\add.php', 37, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/contacts/add', [], true)
+ 5 APPPATH\Controllers\Admin\Contact.php(56): view('admin/contacts/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 08:10:37 --> Undefined index: name
+in APPPATH\Views\admin\contacts\add.php on line 39.
+ 1 APPPATH\Views\admin\contacts\add.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\add.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/contacts/add', [], true)
+ 5 APPPATH\Controllers\Admin\Contact.php(56): view('admin/contacts/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 08:15:43 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\kint-php\kint\src\Parser\FsPathPlugin.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-24 08:23:01 --> Undefined index: group_id
+in APPPATH\Views\admin\contacts\edit.php on line 67.
+ 1 APPPATH\Views\admin\contacts\edit.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: group_id', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\edit.php', 67, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/contacts/edit', [], true)
+ 5 APPPATH\Controllers\Admin\Contact.php(97): view('admin/contacts/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 08:39:54 --> Call to undefined method App\Models\Contact::count
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin\Group.php(53): CodeIgniter\Model->__call('count', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->show('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 08:42:19 --> Call to a member function find() on int
+in APPPATH\Controllers\Admin\Group.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->show('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 08:42:45 --> Call to a member function countAll() on array
+in APPPATH\Controllers\Admin\Group.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->show('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 08:44:20 --> Call to a member function where() on int
+in APPPATH\Controllers\Admin\Group.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->show('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 08:45:00 --> Object of class App\Models\Contact could not be converted to string
+in APPPATH\Views\admin\groups\show.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/groups/show', [], true)
+ 4 APPPATH\Controllers\Admin\Group.php(57): view('admin/groups/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->show('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 08:45:29 --> Undefined index: total_member
+in APPPATH\Controllers\Admin\Group.php on line 54.
+ 1 APPPATH\Controllers\Admin\Group.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total_member', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Controllers\\Admin\\Group.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->show('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-24 08:46:40 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\kint-php\kint\src\Zval\Representation\SplFileInfoRepresentation.php on line 61.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-24 08:51:05 --> Call to a member function where() on int
+in APPPATH\Controllers\Admin\Group.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->show('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')

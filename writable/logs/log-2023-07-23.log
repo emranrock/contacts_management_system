@@ -1,0 +1,1440 @@
+INFO - 2023-07-23 03:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 03:55:39 --> Undefined variable: store
+in APPPATH\Libraries\Shopify_lib.php on line 49.
+ 1 APPPATH\Libraries\Shopify_lib.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: store', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Libraries\\Shopify_lib.php', 49, [...])
+ 2 APPPATH\Controllers\Home.php(14): app\Libraries\Shopify_lib->setName('india')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-23 04:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 04:11:36 --> Undefined variable: store
+in APPPATH\Libraries\Shopify_lib.php on line 49.
+ 1 APPPATH\Libraries\Shopify_lib.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: store', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Libraries\\Shopify_lib.php', 49, [...])
+ 2 APPPATH\Controllers\Home.php(14): app\Libraries\Shopify_lib->setName('india')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 04:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 04:12:17 --> Undefined variable: option
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: option', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Controllers\\Home.php', 14, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 04:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 04:12:40 --> Undefined index: site_name
+in APPPATH\Controllers\Home.php on line 19.
+ 1 APPPATH\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: site_name', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Controllers\\Home.php', 19, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 04:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 04:13:38 --> Undefined index: site_name
+in APPPATH\Controllers\Home.php on line 19.
+ 1 APPPATH\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: site_name', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Controllers\\Home.php', 19, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 04:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 04:46:54 --> Class 'App\Models\Store' not found
+in APPPATH\Controllers\Admin\Users.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->Index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 04:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 04:48:10 --> Class 'App\Models\Store' not found
+in APPPATH\Controllers\Admin\Users.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->Index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 04:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 04:48:59 --> Call to undefined function hooks()
+in APPPATH\Views\admin\template.php on line 24.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/template', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Users.php(29): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->Index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 04:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 04:49:40 --> Call to undefined function hooks()
+in APPPATH\Views\admin\template.php on line 147.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/template', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Users.php(29): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->Index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 04:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 04:50:06 --> Call to undefined function hooks()
+in APPPATH\Views\admin\template.php on line 147.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/template', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Users.php(29): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->Index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 04:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 04:50:44 --> Call to undefined function hooks()
+in APPPATH\Views\admin\template.php on line 528.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/template', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Users.php(29): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->Index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 04:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 04:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 05:05:12 --> Undefined variable: route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: route', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Config\\Routes.php', 39, [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('E:\\xampp\\htdocs\\Qbhsoft\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 05:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 05:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 05:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 05:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 05:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 05:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 05:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 05:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-23 05:45:33 --> mysqli_sql_exception: Table 'qbh_task.tbl_users' doesn't exist in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Users.php(22): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\Admin\Users->Index()
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-23 05:45:33 --> Table 'qbh_task.tbl_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Users.php(22): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Users->Index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 05:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 06:15:52 --> Invalid file: "admin/group/manage.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/group/manage.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/group/manage', [], true)
+ 3 APPPATH\Controllers\Admin\Group.php(12): view('admin/group/manage', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 06:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 06:43:20 --> Call to undefined method App\Models\Group::all
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin\Group.php(13): CodeIgniter\Model->__call('all', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 06:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 06:56:46 --> Undefined property: App\Controllers\admin\Group::$input
+in APPPATH\Controllers\Admin\Group.php on line 12.
+ 1 APPPATH\Controllers\Admin\Group.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\admin\\Group::$input', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Controllers\\Admin\\Group.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 06:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 06:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 07:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 07:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 07:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 07:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 07:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 07:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 07:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 07:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 07:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 07:16:21 --> __clone method called on non-object
+in APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php on line 240.
+ 1 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder([])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct([])
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct([])
+ 4 APPPATH\Controllers\Admin\Group.php(16): Hermawan\DataTables\DataTable::of([])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 07:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 07:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 07:17:30 --> __clone method called on non-object
+in APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php on line 240.
+ 1 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder([])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct([])
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct([])
+ 4 APPPATH\Controllers\Admin\Group.php(16): Hermawan\DataTables\DataTable::of([])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 08:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 08:12:48 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\kint-php\kint\src\Parser\FsPathPlugin.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-07-23 08:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 08:14:13 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\kint-php\kint\src\Parser\Parser.php on line 362.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-07-23 08:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 08:16:15 --> __clone method called on non-object
+in APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php on line 240.
+ 1 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder([])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct([])
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct([])
+ 4 APPPATH\Controllers\Admin\Group.php(16): Hermawan\DataTables\DataTable::of([])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 08:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 08:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 09:00:28 --> Allowed fields must be specified for model: "App\Models\Group"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Group')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Admin\Group.php(41): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 09:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 09:01:46 --> Allowed fields must be specified for model: "App\Models\Group"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Group')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Admin\Group.php(41): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 09:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 09:04:34 --> Allowed fields must be specified for model: "App\Models\Group"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Group')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Admin\Group.php(45): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 09:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-23 09:21:12 --> mysqli_sql_exception: Unknown column 'sr_no' in 'order clause' in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `name`\nF...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Group.php(29): Hermawan\DataTables\DataTable->toJson(true)
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+#10 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-23 09:21:12 --> Unknown column 'sr_no' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 7 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 8 APPPATH\Controllers\Admin\Group.php(29): Hermawan\DataTables\DataTable->toJson(true)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 09:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-23 09:22:35 --> mysqli_sql_exception: Unknown column 'sr_no' in 'order clause' in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `name`\nF...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Group.php(29): Hermawan\DataTables\DataTable->toJson(true)
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+#10 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-23 09:22:35 --> Unknown column 'sr_no' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 7 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 8 APPPATH\Controllers\Admin\Group.php(29): Hermawan\DataTables\DataTable->toJson(true)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 09:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-23 09:23:01 --> mysqli_sql_exception: Unknown column 'sr_no' in 'order clause' in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `name`\nF...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Group.php(29): Hermawan\DataTables\DataTable->toJson(true)
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+#10 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-23 09:23:01 --> Unknown column 'sr_no' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 7 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 8 APPPATH\Controllers\Admin\Group.php(29): Hermawan\DataTables\DataTable->toJson(true)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 09:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-23 09:24:13 --> mysqli_sql_exception: Unknown column 'sr_no' in 'order clause' in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `name`\nF...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Group.php(29): Hermawan\DataTables\DataTable->toJson(true)
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+#10 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-23 09:24:13 --> Unknown column 'sr_no' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `groups`
+ORDER BY `sr_no` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 7 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 8 APPPATH\Controllers\Admin\Group.php(29): Hermawan\DataTables\DataTable->toJson(true)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 09:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-23 09:42:33 --> mysqli_sql_exception: Unknown column 'sr' in 'order clause' in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `name`\nF...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Group.php(28): Hermawan\DataTables\DataTable->toJson(true)
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+#10 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-23 09:42:33 --> Unknown column 'sr' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `name`
+FROM `groups`
+ORDER BY `sr` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`
+FROM `groups`
+ORDER BY `sr` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`
+FROM `groups`
+ORDER BY `sr` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `groups`
+ORDER BY `sr` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 7 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 8 APPPATH\Controllers\Admin\Group.php(28): Hermawan\DataTables\DataTable->toJson(true)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 09:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-23 09:43:04 --> mysqli_sql_exception: Unknown column 'sr' in 'order clause' in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `name`\nF...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Group.php(28): Hermawan\DataTables\DataTable->toJson(true)
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+#10 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-23 09:43:04 --> Unknown column 'sr' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `name`
+FROM `groups`
+ORDER BY `sr` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`
+FROM `groups`
+ORDER BY `sr` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`
+FROM `groups`
+ORDER BY `sr` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `groups`
+ORDER BY `sr` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 7 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 8 APPPATH\Controllers\Admin\Group.php(28): Hermawan\DataTables\DataTable->toJson(true)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 09:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 09:46:35 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\Admin\Group.php on line 24.
+ 1 APPPATH\Controllers\Admin\Group.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Controllers\\Admin\\Group.php', 24, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(91): App\Controllers\admin\Group->App\Controllers\admin\{closure}(Object(stdClass))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 APPPATH\Controllers\Admin\Group.php(28): Hermawan\DataTables\DataTable->toJson(true)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 09:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 09:47:29 --> Undefined property: stdClass::$group_id
+in APPPATH\Controllers\Admin\Group.php on line 23.
+ 1 APPPATH\Controllers\Admin\Group.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$group_id', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Controllers\\Admin\\Group.php', 23, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(91): App\Controllers\admin\Group->App\Controllers\admin\{closure}(Object(stdClass))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 APPPATH\Controllers\Admin\Group.php(27): Hermawan\DataTables\DataTable->toJson(true)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 09:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 09:48:41 --> Undefined index: no_quotes
+in APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php on line 261.
+ 1 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_quotes', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\ThirdParty\\codeigniter4-datatables\\src\\DataTableColumnDefs.php', 261, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Object(CodeIgniter\Database\MySQLi\Builder))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 4 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 5 APPPATH\Controllers\Admin\Group.php(22): Hermawan\DataTables\DataTable::of(Object(App\Models\Group))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 11:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 11:56:23 --> Class 'App\Models\Option' not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 11:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 11:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 11:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-23 11:57:59 --> mysqli_sql_exception: Table 'qbh_task.tbl_roles' doesn't exist in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Login.php(45): CodeIgniter\BaseModel->first()
+#7 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-23 11:57:59 --> Table 'qbh_task.tbl_roles' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`
+JOIN `tbl_roles` USING (`roleId`)
+WHERE `email` = \'imra8233@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+JOIN `tbl_roles` USING (`roleId`)
+WHERE `email` = \'imra8233@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+JOIN `tbl_roles` USING (`roleId`)
+WHERE `email` = \'imra8233@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+JOIN `tbl_roles` USING (`roleId`)
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Admin\Login.php(45): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 11:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 11:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 12:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 12:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 12:02:04 --> Undefined index: userId
+in APPPATH\Controllers\Admin\Login.php on line 51.
+ 1 APPPATH\Controllers\Admin\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userId', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Controllers\\Admin\\Login.php', 51, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Login->loginMe()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 12:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 12:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 12:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 12:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 12:02:54 --> Undefined index: no_quotes
+in APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php on line 261.
+ 1 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_quotes', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\ThirdParty\\codeigniter4-datatables\\src\\DataTableColumnDefs.php', 261, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Object(CodeIgniter\Database\MySQLi\Builder))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 4 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 5 APPPATH\Controllers\Admin\Group.php(22): Hermawan\DataTables\DataTable::of(Object(App\Models\Group))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+INFO - 2023-07-23 12:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 12:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-23 12:03:26 --> Undefined index: no_quotes
+in APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php on line 261.
+ 1 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_quotes', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\ThirdParty\\codeigniter4-datatables\\src\\DataTableColumnDefs.php', 261, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Object(CodeIgniter\Database\MySQLi\Builder))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 4 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 5 APPPATH\Controllers\Admin\Group.php(22): Hermawan\DataTables\DataTable::of(Object(App\Models\Group))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 12:04:52 --> Undefined index: no_quotes
+in APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php on line 261.
+ 1 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_quotes', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\ThirdParty\\codeigniter4-datatables\\src\\DataTableColumnDefs.php', 261, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Object(CodeIgniter\Database\MySQLi\Builder))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 4 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 5 APPPATH\Controllers\Admin\Group.php(22): Hermawan\DataTables\DataTable::of(Object(App\Models\Group))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 12:11:21 --> Undefined index: no_quotes
+in APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php on line 261.
+ 1 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_quotes', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\ThirdParty\\codeigniter4-datatables\\src\\DataTableColumnDefs.php', 261, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Object(CodeIgniter\Database\MySQLi\Builder))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 4 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 5 APPPATH\Controllers\Admin\Group.php(22): Hermawan\DataTables\DataTable::of(Object(App\Models\Group))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 12:12:22 --> Undefined index: no_quotes
+in APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php on line 261.
+ 1 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_quotes', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\ThirdParty\\codeigniter4-datatables\\src\\DataTableColumnDefs.php', 261, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Object(CodeIgniter\Database\MySQLi\Builder))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 4 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 5 APPPATH\Controllers\Admin\Group.php(22): Hermawan\DataTables\DataTable::of(Object(App\Models\Group))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 12:14:17 --> Undefined index: no_quotes
+in APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php on line 261.
+ 1 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_quotes', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\ThirdParty\\codeigniter4-datatables\\src\\DataTableColumnDefs.php', 261, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Object(CodeIgniter\Database\MySQLi\Builder))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 4 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 5 APPPATH\Controllers\Admin\Group.php(22): Hermawan\DataTables\DataTable::of(Object(App\Models\Group))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+ERROR - 2023-07-23 12:15:07 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `n...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Group.php(30): Hermawan\DataTables\DataTable->toJson()
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+#10 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-23 12:15:07 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `name`
+FROM `groups`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `name`
+FROM `groups`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `name`
+FROM `groups`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `name`
+FROM `groups`
+ LIMIT 10', [], false)
+ 5 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 7 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 8 APPPATH\Controllers\Admin\Group.php(30): Hermawan\DataTables\DataTable->toJson()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+ERROR - 2023-07-23 12:16:04 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `n...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Group.php(30): Hermawan\DataTables\DataTable->toJson()
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+#10 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-23 12:16:04 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `name`
+FROM `groups`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `name`
+FROM `groups`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `name`
+FROM `groups`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `name`
+FROM `groups`
+ LIMIT 10', [], false)
+ 5 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 7 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 8 APPPATH\Controllers\Admin\Group.php(30): Hermawan\DataTables\DataTable->toJson()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+ERROR - 2023-07-23 12:16:36 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `n...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 E:\xampp\htdocs\Qbhsoft\app\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Group.php(30): Hermawan\DataTables\DataTable->toJson()
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+#10 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-23 12:16:36 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `name`
+FROM `groups`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `name`
+FROM `groups`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `name`
+FROM `groups`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `name`
+FROM `groups`
+ LIMIT 10', [], false)
+ 5 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+ 7 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 8 APPPATH\Controllers\Admin\Group.php(30): Hermawan\DataTables\DataTable->toJson()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 12:17:35 --> Undefined index: no_quotes
+in APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php on line 261.
+ 1 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_quotes', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\ThirdParty\\codeigniter4-datatables\\src\\DataTableColumnDefs.php', 261, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Object(CodeIgniter\Database\MySQLi\Builder))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 4 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 5 APPPATH\Controllers\Admin\Group.php(22): Hermawan\DataTables\DataTable::of(Object(App\Models\Group))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 12:28:33 --> Undefined index: no_quotes
+in APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php on line 261.
+ 1 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_quotes', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\ThirdParty\\codeigniter4-datatables\\src\\DataTableColumnDefs.php', 261, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Object(CodeIgniter\Database\MySQLi\Builder))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 4 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(46): Hermawan\DataTables\DataTable->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 5 APPPATH\Controllers\Admin\Group.php(22): Hermawan\DataTables\DataTable::of(Object(App\Models\Group))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 12:29:00 --> Undefined property: stdClass::$group_id
+in APPPATH\Controllers\Admin\Group.php on line 25.
+ 1 APPPATH\Controllers\Admin\Group.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$group_id', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Controllers\\Admin\\Group.php', 25, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(91): App\Controllers\admin\Group->App\Controllers\admin\{closure}(Object(stdClass))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 APPPATH\Controllers\Admin\Group.php(30): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 12:41:51 --> Undefined property: stdClass::$group_id
+in APPPATH\Controllers\Admin\Group.php on line 25.
+ 1 APPPATH\Controllers\Admin\Group.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$group_id', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Controllers\\Admin\\Group.php', 25, [...])
+ 2 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(91): App\Controllers\admin\Group->App\Controllers\admin\{closure}(Object(stdClass))
+ 3 APPPATH\ThirdParty\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 APPPATH\Controllers\Admin\Group.php(30): Hermawan\DataTables\DataTable->toJson()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 12:55:27 --> Undefined variable: user
+in APPPATH\Views\admin\groups\manage.php on line 42.
+ 1 APPPATH\Views\admin\groups\manage.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\manage.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/groups/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Group.php(27): view('admin/groups/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 12:58:54 --> Undefined variable: validation
+in APPPATH\Views\admin\groups\add.php on line 34.
+ 1 APPPATH\Views\admin\groups\add.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\add.php', 34, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/groups/add', [], true)
+ 5 APPPATH\Controllers\Admin\Group.php(49): view('admin/groups/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:00:11 --> Call to undefined method App\Controllers\admin\Group::session()
+in APPPATH\Controllers\Admin\Group.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:00:33 --> Call to undefined method CodeIgniter\Session\Session::flash()
+in APPPATH\Controllers\Admin\Group.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:01:10 --> Call to undefined method CodeIgniter\Session\Session::flash_message()
+in APPPATH\Controllers\Admin\Group.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:05:30 --> Illegal string offset 'groups.show'
+in APPPATH\Config\Routes.php on line 44.
+ 1 APPPATH\Config\Routes.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'groups.show\'', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Config\\Routes.php', 44, [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('E:\\xampp\\htdocs\\Qbhsoft\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:05:43 --> Illegal string offset 'groups.delete'
+in APPPATH\Config\Routes.php on line 45.
+ 1 APPPATH\Config\Routes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'groups.delete\'', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Config\\Routes.php', 45, [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('E:\\xampp\\htdocs\\Qbhsoft\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:11:54 --> Too few arguments to function App\Controllers\admin\Group::edit(), 0 passed in E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Admin\Group.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:13:17 --> Too few arguments to function App\Controllers\admin\Group::edit(), 0 passed in E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Admin\Group.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:15:08 --> Too few arguments to function App\Controllers\admin\Group::edit(), 0 passed in E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Admin\Group.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+ERROR - 2023-07-23 13:19:55 --> mysqli_sql_exception: Unknown column 'groups.id' in 'where clause' in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '5')
+#6 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Group.php(76): CodeIgniter\BaseModel->find('5')
+#7 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\admin\Group->edit('5')
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-23 13:19:55 --> Unknown column 'groups.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `groups`
+WHERE `groups`.`id` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`
+WHERE `groups`.`id` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`
+WHERE `groups`.`id` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`
+WHERE `groups`.`id` = :groups.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '5')
+ 7 APPPATH\Controllers\Admin\Group.php(76): CodeIgniter\BaseModel->find('5')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->edit('5')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+ERROR - 2023-07-23 13:20:36 --> mysqli_sql_exception: Unknown column 'groups.id' in 'where clause' in E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\Qbhsoft\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\Qbhsoft\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\Qbhsoft\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\Qbhsoft\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Qbhsoft\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '5')
+#6 E:\xampp\htdocs\Qbhsoft\app\Controllers\Admin\Group.php(61): CodeIgniter\BaseModel->find('5')
+#7 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(934): App\Controllers\admin\Group->edit('5')
+#8 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+#9 E:\xampp\htdocs\Qbhsoft\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\Qbhsoft\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\Qbhsoft\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-23 13:20:36 --> Unknown column 'groups.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `groups`
+WHERE `groups`.`id` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`
+WHERE `groups`.`id` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`
+WHERE `groups`.`id` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`
+WHERE `groups`.`id` = :groups.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '5')
+ 7 APPPATH\Controllers\Admin\Group.php(61): CodeIgniter\BaseModel->find('5')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->edit('5')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:22:50 --> Trying to get property 'group_id' of non-object
+in APPPATH\Views\admin\groups\edit.php on line 28.
+ 1 APPPATH\Views\admin\groups\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'group_id\' of non-object', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\edit.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/groups/edit', [], true)
+ 5 APPPATH\Controllers\Admin\Group.php(80): view('admin/groups/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:24:50 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin\Group.php(70): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->edit('5')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:25:35 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin\Group.php(70): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->edit('5')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:25:43 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin\Group.php(70): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->edit('5')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:26:11 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin\Group.php(71): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->edit('5')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:26:39 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin\Group.php(71): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->edit('5')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:27:31 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin\Group.php(71): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->edit('5')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:28:00 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin\Group.php(72): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->edit('5')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:30:37 --> Invalid file: "admin/groups/show.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/groups/show.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/groups/show', [], true)
+ 3 APPPATH\Controllers\Admin\Group.php(56): view('admin/groups/show', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->show('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:42:37 --> Call to undefined method CodeIgniter\Session\Session::setFlash()
+in APPPATH\Controllers\Admin\Group.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->edit('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 13:43:55 --> key() expects parameter 1 to be array, string given
+in APPPATH\Views\admin\includes\alert_bar.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'key() expects parameter 1 to be array, string given', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\includes\\alert_bar.php', 4, [...])
+ 2 APPPATH\Views\admin\includes\alert_bar.php(4): key('Group Updated Successfully')
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\includes\\alert_bar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin/includes/alert_bar', null, true)
+ 6 APPPATH\Views\admin\groups\manage.php(10): CodeIgniter\View\View->include('admin/includes/alert_bar')
+ 7 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\manage.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/groups/manage', [], true)
+10 APPPATH\Controllers\Admin\Group.php(27): view('admin/groups/manage', [...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 14:11:21 --> current() expects parameter 1 to be array, string given
+in APPPATH\Views\admin\includes\alert_bar.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'current() expects parameter 1 to be array, string given', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\includes\\alert_bar.php', 6, [...])
+ 2 APPPATH\Views\admin\includes\alert_bar.php(6): current('Group Updated Successfully')
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\includes\\alert_bar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin/includes/alert_bar', null, true)
+ 6 APPPATH\Views\admin\groups\manage.php(10): CodeIgniter\View\View->include('admin/includes/alert_bar')
+ 7 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\manage.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/groups/manage', [], true)
+10 APPPATH\Controllers\Admin\Group.php(27): view('admin/groups/manage', [...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 14:30:28 --> include(admin/includes/alert_bar): failed to open stream: No such file or directory
+in APPPATH\Views\admin\groups\manage.php on line 10.
+ 1 APPPATH\Views\admin\groups\manage.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(admin/includes/alert_bar): failed to open stream: No such file or directory', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\manage.php', 10, [...])
+ 2 APPPATH\Views\admin\groups\manage.php(10): include()
+ 3 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\manage.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/groups/manage', [], true)
+ 6 APPPATH\Controllers\Admin\Group.php(27): view('admin/groups/manage', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin\Group->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Group))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 15:17:09 --> "email" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 329.
+ 1 SYSTEMPATH\Validation\Validation.php(329): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('email')
+ 2 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('email', 'email', 'demo@gmail.com', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Admin\Contact.php(35): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->add()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 15:19:38 --> "num" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 329.
+ 1 SYSTEMPATH\Validation\Validation.php(329): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('num')
+ 2 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('phone', 'phone', '8003051520', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Admin\Contact.php(35): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->add()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 15:21:27 --> Allowed fields must be specified for model: "App\Models\Contact"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Contact')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Admin\Contact.php(42): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 15:22:56 --> Undefined variable: groups
+in APPPATH\Views\admin\groups\manage.php on line 38.
+ 1 APPPATH\Views\admin\groups\manage.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: groups', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\manage.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/groups/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Contact.php(23): view('admin/groups/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 15:24:36 --> Undefined variable: groups
+in APPPATH\Views\admin\groups\manage.php on line 38.
+ 1 APPPATH\Views\admin\groups\manage.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: groups', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\manage.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/groups/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Contact.php(23): view('admin/groups/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 15:25:15 --> Undefined variable: groups
+in APPPATH\Views\admin\groups\manage.php on line 38.
+ 1 APPPATH\Views\admin\groups\manage.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: groups', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\manage.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\groups\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/groups/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Contact.php(23): view('admin/groups/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 15:26:38 --> Undefined variable: group
+in APPPATH\Views\admin\contacts\manage.php on line 51.
+ 1 APPPATH\Views\admin\contacts\manage.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: group', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\manage.php', 51, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\manage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/contacts/manage', [], true)
+ 5 APPPATH\Controllers\Admin\Contact.php(23): view('admin/contacts/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 15:29:01 --> Undefined variable: groups
+in APPPATH\Controllers\Admin\Contact.php on line 91.
+ 1 APPPATH\Controllers\Admin\Contact.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: groups', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Controllers\\Admin\\Contact.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 15:32:17 --> "email" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 329.
+ 1 SYSTEMPATH\Validation\Validation.php(329): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('email')
+ 2 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('email', 'email', 'demo@gmail.com', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Admin\Contact.php(76): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')
+CRITICAL - 2023-07-23 15:37:03 --> Undefined variable: group
+in APPPATH\Views\admin\contacts\show.php on line 33.
+ 1 APPPATH\Views\admin\contacts\show.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: group', 'E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\show.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\Qbhsoft\\app\\Views\\admin\\contacts\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/contacts/show', [], true)
+ 5 APPPATH\Controllers\Admin\Contact.php(62): view('admin/contacts/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Contact->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Qbhsoft\\public\\index.php')

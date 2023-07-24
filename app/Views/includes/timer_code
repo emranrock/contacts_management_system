@@ -1,0 +1,36 @@
+	<section class="jumbotron text-center">
+				<div class="container">
+					<table class="table">
+						<tbody>
+							<tr>
+								<td><b>Time Spent</b></td>
+								<td id="timer">00</td>
+							</tr>
+							<tr>
+								<td><b>Scrolling</b></td>
+								<td id="scroll">00</td>
+							</tr>
+							<tr>
+								<td><b>Mouse Clicks</b></td>
+								<td id="click">00</td>
+							</tr>
+							<tr>
+								<td><b>Button Clicks</b></td>
+								<td id="button">00</td>
+							</tr>
+							<tr>
+								<td><b>Link Clicks</b></td>
+								<td id="link">00</td>
+							</tr>
+							<tr>
+								<td><b>Mouse Movement</b></td>
+								<td id="mouse">00</td>
+							</tr>
+							<tr>
+								<td><b>Key Presses</b></td>
+								<td id="keypress">00</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
